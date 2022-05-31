@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  color: #BB99DD;
+  text-decoration: none;
+  box-sizing: border-box;
+  
+}
+
+body, html{
+  background-color: #FAF7FD;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 5px;
+
+}
+
+.main{
+  left: 50%;
+  top: 50%;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .image{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image .logo{
+ 
+  width: 200px; 
+  height: 200px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #a062dd;
+  border-radius: 50%;
+}
+
+.image .logo img{
+  
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+}
+
+.image .username{
+  margin-top: 15px;
+  color: #BB99DD;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+.image .button{
+  margin-top: 17px;
+  display: flex;
+  flex-direction: column;
+}
+
+.button .link{
+margin-top: 16px;
+width: 326px;
+border: 2px solid #BB99DD;
+border-radius: 4px;
+font-size: 16px;
+font-weight: 600;
+text-transform: uppercase;
+text-align: center;
+padding: 12px 0;
+transition: 0.3s;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.link :hover{
+  background-color: #FAF7FD;
+  color: #8b64b3;
+}
+
+.image .box-social{
+  margin-top: 45px;
+}
+
+.box-social .social{
+  margin-right: 29px;
+  transform: scale(0.8);
+}
+.box-social .social:hover{
+  transform: scale(1);
+  transition: 0.3s;
+}
